@@ -1,8 +1,8 @@
 package com.example.learnKafka.user_services.service;
 
+import com.example.learnKafka.event.UserCreatedEvent;
 import com.example.learnKafka.user_services.dto.CreateUserRequestDto;
 import com.example.learnKafka.user_services.entity.User;
-import com.example.learnKafka.user_services.event.UserCreatedEvent;
 import com.example.learnKafka.user_services.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
